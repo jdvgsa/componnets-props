@@ -1,4 +1,4 @@
-<header>
+<!-- <header>
 
   <nav>
     <ul>
@@ -9,5 +9,9 @@
       <li> <a href="/contact">Contact</a></li>
     </ul>
   </nav>
-  </header>
-<h1>About Section</h1>
+  </header> -->
+  <script>
+    import Header from "../lib/components/Header.svelte";
+  </script>
+  <header />
+  <slot />
