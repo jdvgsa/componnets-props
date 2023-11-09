@@ -16,7 +16,7 @@ import CardComponent from "../lib/components/CardComponent.svelte";
   </nav>
   </header> 
 
-<h1>Components and Props Assignment Test123</h1>
+<h1>Components and Props Assignment Test12345</h1>
 
 <CardComponent {...CardComponent}/>
 
