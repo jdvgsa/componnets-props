@@ -5,18 +5,38 @@ import {cardArray} from "../lib/data.js"
 // renders card
 let visible = true;
 </script>
+<head>
+<style>
+nav {
+  
+  background-color: aquamarine;
+  padding: 0.5rem;
+}
 
-<header>
+nav a {
+  color: grey;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+nav a:hover {
+  text-decoration:underline;
+  color: red;
+
+}
+</style>
+</head>
+
    <nav>
-    <ul>
+    
       <li> <a href="/">Home</a></li>
       <li> <a href="/about">About</a></li>
       <li> <a href="/contact">Contact</a></li>
-    </ul>
+    
   </nav>
-  </header> 
+  
 
-<h1 class="text-5xl font-bold underline">Components and Props Assignment Test322</h1>
+<h1 class="text-5xl font-bold underline">Components and Props Assignment Test3322</h1>
 
 <div>
 <Card {...cardData}/>
