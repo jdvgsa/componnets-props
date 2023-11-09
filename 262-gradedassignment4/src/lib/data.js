@@ -1,6 +1,6 @@
 export const cardData = {
-  title: "Tea",
-  description: "Best Drank Warm",
-  image: "../images/tea.jpg",
-  link: "https://www.google.ca"
+  myTitle: "Tea",
+  myDescription: "Best Drank Warm",
+  myImage: "../images/tea.jpg",
+  myLink: "https://www.google.ca"
 };
