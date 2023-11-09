@@ -10,8 +10,9 @@
     </ul>
   </nav>
   </header> -->
-  <script>
-    import Header from "../lib/components/Header.svelte";
+  <!-- <script>
+    import "../app.css";
   </script>
   <header />
+  <slot /> -->
   <slot />

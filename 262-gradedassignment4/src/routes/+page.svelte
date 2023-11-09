@@ -1,5 +1,8 @@
 <script>
-import CardComponent from "../lib/components/CardComponent.svelte"; 
+
+
+import CardComponent from "../lib/components/Card.svelte"; 
+
 
 </script>
 
@@ -16,7 +19,10 @@ import CardComponent from "../lib/components/CardComponent.svelte";
   </nav>
   </header> 
 
-<h1>Components and Props Assignment Test12345</h1>
+<h1 class="text-5xl font-bold underline">Components and Props Assignment 3Test12356</h1>
 
-<CardComponent {...CardComponent}/>
+<CardComponent {...CardComponent} />
+
+
+<footer><p>&copy; 2023 John Dagsa Svelte Assignment</p></footer>
 
